@@ -3,7 +3,7 @@ const axios = require("axios");
 const sendNotification = require("./notify");
 const cron = require("node-cron");
 
-const EXPO_PUSH_TOKEN = "ExponentPushToken[OvYe8dEqQiuAmqkKdOeI7K]";
+const EXPO_PUSH_TOKEN = "ExponentPushToken[GM_qLwO2OpX7wK-sub2g1q]";
 
 async function isInStock() {
   try {
@@ -69,7 +69,7 @@ cron.schedule("*/1   * * * *", () => {
 });
 
 const ITEMS = [
-  { alias: "amul-kool-protein-milkshake-or-kesar-180-ml-or-pack-of-30" },
+  // { alias: "amul-kool-protein-milkshake-or-kesar-180-ml-or-pack-of-30" },
   { alias: "amul-high-protein-rose-lassi-200-ml-or-pack-of-30" },
   { alias: "amul-high-protein-buttermilk-200-ml-or-pack-of-30" },
   { alias: "amul-high-protein-plain-lassi-200-ml-or-pack-of-30" },
